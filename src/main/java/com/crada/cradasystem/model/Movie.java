@@ -18,7 +18,6 @@ public class Movie {
     private String genre;
 
     public Movie() {
-
     }
 
     public int getId() {
@@ -68,6 +67,5 @@ public class Movie {
     public void setGenre(String genre) {
         this.genre = genre;
     }
-
 }
 
