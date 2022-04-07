@@ -51,6 +51,7 @@ public class MovieController
             return new ResponseEntity<Movie>(HttpStatus.NOT_FOUND);
         }
     }
+    
     @DeleteMapping("/{id}")
     public String delete(@PathVariable Integer id){
         movieService.delete(id);
