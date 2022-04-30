@@ -4,18 +4,18 @@ Crada&Chill 🍿
 ============
 
 ***
-## Introduction 🎬
+## Introduction 📼
 
 The Crada&Chill project is a web application for recommending movies. You will be able to see a gallery of movies with their rating and you will be able to add new movies.
 
-## Objectives of the practice 🎤
+## Objectives of the practice 🎬
 
 We introduce ourselves a bit in the Spring Boot and React framework making a CRUD-style Microservice.
 * Users will be able to add a movie with an image, title, genre, director name and score
 * Users will be able to edit the cards
 * Users will be able to delete the cards
 
-## Starting 🛸
+## Starting 📹
 
 In this repository we create the API for Crada&Chill \
 [You can access the FrontEnd of Crada&Chill here](https://github.com/SolTuripe/crada-chill-front)
