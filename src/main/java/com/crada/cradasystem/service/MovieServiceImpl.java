@@ -10,6 +10,7 @@ import java.util.List;
 @Service
 
 public class MovieServiceImpl implements MovieService{
+
     @Autowired
     private MovieRepository movieRepository;
 
@@ -25,7 +26,7 @@ public class MovieServiceImpl implements MovieService{
 
     @Override
     public Movie get(Integer id) {
-    return movieRepository.findById(id).get();
+        return movieRepository.findById(id).get();
     }
 
     @Override

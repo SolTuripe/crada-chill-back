@@ -44,7 +44,7 @@ public class MovieController
     @PutMapping("/{id}")
     public ResponseEntity<Movie> update (@RequestBody Movie movie, @PathVariable Integer id){
         try{
-            Movie existingMovie=movieService.get(id);
+            Movie existingMovie = movieService.get(id);
             movieService.save(movie);
             return new ResponseEntity<>(HttpStatus.OK);
         }catch (NoSuchElementException e){

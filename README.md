@@ -1,9 +1,7 @@
 <p align="center"><img src="./src/logo.png" width="200"></a></p>
 
-Crada&Chill 🍿
-============
+# Crada&Chill 🍿
 
-***
 ## Introduction 📼
 
 The Crada&Chill project is a web application for recommending movies. You will be able to see a gallery of movies with their rating and you will be able to add new movies.
